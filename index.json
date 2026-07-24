@@ -168,15 +168,5 @@
         "info": ["The King Of Fighters 2002 Magic Plus 2","1 GHz","DirectX 8",1,"100 MB"],
         "image": "https://cdn2.steamgriddb.com/thumb/be4d7403582645fe41d3921ac8ce530d.jpg",
         "url": "https://drive.google.com/file/d/1CDO9iyQS03i2_hqYltfF_bKeOa1nM7BS/view?usp=sharing"
-    },
-    {
-        "name": "Lumina Updater",
-        "format": ".zip",
-        "folder": "Lumina Updater",
-        "exe": "Lumina Updater.exe",
-        "font": "Lumina",
-        "info": ["<b>- v1.0.1<b/> Arreglados varios bugs al instalar ciertos juegos, ademas de bugs visuales minimos<br><b>- v1.0.2<b/> Arreglo de bug con caracteres raros, se agrego la version actual del programa al final de los juegos<br><b>- v1.0.3<b/> Se arreglaron 2 bugs menores de la pestaña Jugar","N/A","N/A",1,"15 MB"],
-        "image": "",
-        "url": "https://drive.google.com/file/d/1M1A3aE2LXpy65IRofai67t7l7GzWQvM1/view?usp=sharing"
     }
 ]
