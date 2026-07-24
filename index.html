@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Web</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #101020;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 960px;
+            background-color: #101020;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .search-container {
+            width: 100%;
+        }
+
+        .search-input {
+            width: 100%;
+            background-color: #201030;
+            color: #ffffff;
+            border: none;
+            padding: 10px 14px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 2px;
+            outline: none;
+            transition: background-color 0.2s;
+        }
+
+        .search-input:hover, .search-input:focus {
+            background-color: #201040;
+        }
+
+        .games-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .game-card {
+            background-color: #101020;
+            border: 2px solid #101040;
+            border-radius: 4px;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            cursor: pointer;
+            transition: background-color 0.2s, border-color 0.2s;
+        }
+
+        .game-card:hover {
+            background-color: #201040;
+            border-color: #202060;
+        }
+
+        .game-image {
+            width: 160px;
+            height: 64px;
+            object-fit: cover;
+            border-radius: 3px;
+            background-color: #101020;
+        }
+
+        .game-info {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            flex-grow: 1;
+        }
+
+        .game-title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .game-font {
+            color: #808080;
+            font-size: 12px;
+        }
+
+        .btn-download {
+            background-color: #608010;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            transition: background-color 0.2s;
+        }
+
+        .btn-download:hover {
+            background-color: #60a010;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(16, 16, 32, 0.95);
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            z-index: 100;
+        }
+
+        .modal-content {
+            background-color: #101020;
+            border: 2px solid #101040;
+            border-radius: 4px;
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .btn-back {
+            align-self: flex-start;
+            background-color: #402060;
+            color: #ffffff;
+            border: none;
+            padding: 8px 15px;
+            font-weight: bold;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+
+        .btn-back:hover {
+            background-color: #403080;
+        }
+
+        .modal-header {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            background-color: #101020;
+            border: 2px solid #101040;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        .modal-image {
+            width: 240px;
+            height: 96px;
+            object-fit: cover;
+            border-radius: 3px;
+        }
+
+        .modal-title {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .modal-font {
+            color: #808080;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .modal-body {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .modal-desc {
+            flex: 1;
+            font-size: 14px;
+            line-height: 1.6;
+            min-width: 300px;
+        }
+
+        .btn-download-large {
+            background-color: #608010;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 2px;
+            text-decoration: none;
+            text-align: center;
+            align-self: flex-start;
+            transition: background-color 0.2s;
+        }
+
+        .btn-download-large:hover {
+            background-color: #60a010;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-input" placeholder="Buscar juego...">
+        </div>
+
+        <div id="gamesList" class="games-list"></div>
+    </div>
+
+    <div id="gameModal" class="modal">
+        <div class="modal-content">
+            <button class="btn-back" onclick="closeModal()">VOLVER</button>
+            
+            <div class="modal-header">
+                <img id="modalImg" class="modal-image" src="" alt="Juego">
+                <div>
+                    <div id="modalTitle" class="modal-title"></div>
+                    <div id="modalFont" class="modal-font"></div>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <div id="modalDesc" class="modal-desc"></div>
+                <a id="modalDownloadBtn" class="btn-download-large" href="" download>Descargar</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let gamesData = [];
+
+        const gamesList = document.getElementById('gamesList');
+        const searchInput = document.getElementById('searchInput');
+
+        // Función para cargar el index.json local
+        async function loadIndexJson() {
+            try {
+                const response = await fetch('index.json');
+                if (!response.ok) {
+                    throw new Error(`Error al cargar index.json: ${response.status}`);
+                }
+                gamesData = await response.json();
+                renderGames(gamesData);
+            } catch (error) {
+                console.error("Error cargando el archivo de catálogo:", error);
+                gamesList.innerHTML = '<div style="text-align:center; padding: 20px; color:#808080;">No se pudo cargar el archivo index.json. Asegúrate de ejecutar la página desde un servidor local.</div>';
+            }
+        }
+
+        // Renderizar lista de juegos
+        function renderGames(data) {
+            gamesList.innerHTML = '';
+            if (!data || data.length === 0) {
+                gamesList.innerHTML = '<div style="text-align:center; padding: 20px; color:#808080;">No hay juegos disponibles.</div>';
+                return;
+            }
+
+            data.forEach(game => {
+                const card = document.createElement('div');
+                card.className = 'game-card';
+                card.onclick = () => openModal(game);
+
+                card.innerHTML = `
+                    <img class="game-image" src="${game.image}" alt="${game.name}">
+                    <div class="game-info">
+                        <div class="game-title">${game.name}</div>
+                        <div class="game-font">Fuente: ${game.font || 'Desconocida'}</div>
+                    </div>
+                    <a class="btn-download" href="${game.url}" target="_blank" onclick="event.stopPropagation()">Descargar</a>
+                `;
+                gamesList.appendChild(card);
+            });
+        }
+
+        // Filtrado en tiempo real
+        searchInput.addEventListener('input', (e) => {
+            const text = e.target.value.toLowerCase().trim();
+            const filtered = gamesData.filter(g => g.name.toLowerCase().includes(text));
+            renderGames(filtered);
+        });
+
+        // Abrir Modal con detalles del juego
+        function openModal(game) {
+            document.getElementById('modalImg').src = game.image;
+            document.getElementById('modalTitle').textContent = game.name;
+            document.getElementById('modalFont').textContent = `Fuente: ${game.font || 'Desconocida'}`;
+            document.getElementById('modalDownloadBtn').href = game.url;
+
+            const info = game.info || ["Sin descripción", "N/A", "N/A", "N/A", "N/A"];
+
+            document.getElementById('modalDesc').innerHTML = `
+                <b>Descripción:</b><br>${info[0]}<br><br>
+                <b>Requisitos Mínimos:</b><br>
+                - CPU: ${info[1]}<br>
+                - GPU: ${info[2]}<br>
+                - RAM: ${info[3]} GB<br>
+                - Almacenamiento: ${info[4]}
+            `;
+
+            document.getElementById('gameModal').style.display = 'flex';
+        }
+
+        // Cerrar Modal
+        function closeModal() {
+            document.getElementById('gameModal').style.display = 'none';
+        }
+
+        // Cargar el JSON al abrir la página
+        loadIndexJson();
+    </script>
+</body>
+</html>
