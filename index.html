@@ -23,8 +23,8 @@
 
         .container {
             width: 100%;
-            min-width: 720px;
-            max-width: 720px;
+            max-width: 960px;
+            margin: 0 auto;
             background-color: #101020;
             display: flex;
             flex-direction: column;
@@ -258,10 +258,10 @@
         const gamesList = document.getElementById('gamesList');
         const searchInput = document.getElementById('searchInput');
 
-        // Función para cargar el index.json local
         async function loadIndexJson() {
             try {
-                const response = await fetch('index.json');
+                const mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+                const response = await fetch(mobile ? 'indexMobile.json' : 'index.json');
                 if (!response.ok) {
                     throw new Error(`Error al cargar index.json: ${response.status}`);
                 }
