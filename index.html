@@ -22,13 +22,14 @@
         }
 
         .container {
-            width: 100%;
-            max-width: 960px;
-            margin: 0 auto;
+            width: 720px;
+            max-width: 720px;
             background-color: #101020;
             display: flex;
             flex-direction: column;
             gap: 15px;
+            transform-origin: top center;
+            transition: transform 0.1s ease-out;
         }
 
         .search-container {
@@ -257,7 +258,24 @@
 
         const gamesList = document.getElementById('gamesList');
         const searchInput = document.getElementById('searchInput');
-        const mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        const mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);}
+
+        function adjustScale() {
+            const container = document.getElementById('mainContainer');
+            const anchoVentana = window.innerWidth - 20;
+            
+            if (anchoVentana < 720) {
+                const escala = anchoVentana / 720;
+                container.style.transform = `scale(${escala})`;
+                container.style.marginBottom = `${(container.offsetHeight * (1 - escala)) * -1}px`;
+            } else {
+                container.style.transform = 'scale(1)';
+                container.style.marginBottom = '0px';
+            }
+        }
+
+        window.addEventListener('resize', adjustScale);
+        window.addEventListener('load', adjustScale);
 
         async function loadIndexJson() {
             try {
@@ -291,10 +309,11 @@
                         <div class="game-title">${game.name}</div>
                         <div class="game-font">Fuente: ${game.font || 'Desconocida'}</div>
                     </div>
-                    {mobile ? `` : `<a class="btn-download" href="${game.url}" target="_blank" onclick="event.stopPropagation()">Descargar</a>`}
+                    <a class="btn-download" href="${game.url}" target="_blank" onclick="event.stopPropagation()">Descargar</a>
                 `;
                 gamesList.appendChild(card);
             });
+            adjustScale();
         }
 
         searchInput.addEventListener('input', (e) => {
