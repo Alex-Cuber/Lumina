@@ -18,21 +18,16 @@
             color: #ffffff;
             display: flex;
             justify-content: center;
-            align-items: flex-start;
-            min-height: 100vh;
             padding: 10px;
-            overflow-x: hidden;
         }
 
         .container {
-            width: 720px;
-            max-width: 720px;
+            width: 100%;
+            max-width: 800px;
             background-color: #101020;
             display: flex;
             flex-direction: column;
             gap: 15px;
-            transform-origin: top center;
-            transition: transform 0.1s ease-out;
         }
 
         .search-container {
@@ -66,10 +61,10 @@
             background-color: #101020;
             border: 2px solid #101040;
             border-radius: 4px;
-            padding: 10px 20px;
+            padding: 10px;
             display: flex;
             align-items: center;
-            gap: 15px;
+            gap: 12px;
             cursor: pointer;
             transition: background-color 0.2s, border-color 0.2s;
         }
@@ -80,8 +75,8 @@
         }
 
         .game-image {
-            width: 160px;
-            height: 64px;
+            width: 120px;
+            height: 48px;
             object-fit: cover;
             border-radius: 3px;
             background-color: #101020;
@@ -93,11 +88,15 @@
             flex-direction: column;
             gap: 4px;
             flex-grow: 1;
+            min-width: 0;
         }
 
         .game-title {
-            font-size: 20px;
+            font-size: 16px;
             font-weight: bold;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .game-font {
@@ -108,9 +107,9 @@
         .btn-download {
             background-color: #608010;
             color: white;
-            font-size: 16px;
+            font-size: 14px;
             font-weight: bold;
-            padding: 10px 20px;
+            padding: 8px 12px;
             border: none;
             border-radius: 2px;
             cursor: pointer;
@@ -135,7 +134,7 @@
             background-color: rgba(16, 16, 32, 0.95);
             justify-content: center;
             align-items: center;
-            padding: 20px;
+            padding: 10px;
             z-index: 100;
         }
 
@@ -143,13 +142,13 @@
             background-color: #101020;
             border: 2px solid #101040;
             border-radius: 4px;
-            max-width: 720px;
+            max-width: 700px;
             width: 100%;
-            padding: 20px;
+            padding: 15px;
             display: flex;
             flex-direction: column;
-            gap: 20px;
-            max-height: 90vh;
+            gap: 15px;
+            max-height: 95vh;
             overflow-y: auto;
         }
 
@@ -170,68 +169,75 @@
 
         .modal-header {
             display: flex;
-            gap: 15px;
+            gap: 12px;
             align-items: center;
             background-color: #101020;
             border: 2px solid #101040;
             padding: 10px;
             border-radius: 4px;
+            flex-wrap: wrap;
         }
 
         .modal-image {
-            width: 240px;
-            height: 96px;
+            width: 160px;
+            height: 64px;
             object-fit: cover;
             border-radius: 3px;
         }
 
         .modal-title {
-            font-size: 28px;
+            font-size: 20px;
             font-weight: bold;
         }
 
         .modal-font {
             color: #808080;
-            font-size: 14px;
+            font-size: 12px;
             font-weight: bold;
         }
 
         .modal-body {
             display: flex;
-            justify-content: space-between;
-            gap: 20px;
-            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 15px;
         }
 
         .modal-desc {
-            flex: 1;
             font-size: 14px;
             line-height: 1.6;
-            min-width: 300px;
         }
 
         .btn-download-large {
             background-color: #608010;
             color: white;
-            font-size: 20px;
+            font-size: 18px;
             font-weight: bold;
-            padding: 15px 30px;
+            padding: 12px 20px;
             border: none;
             border-radius: 2px;
             text-decoration: none;
             text-align: center;
-            align-self: flex-start;
+            width: 100%;
             transition: background-color 0.2s;
         }
 
         .btn-download-large:hover {
             background-color: #60a010;
         }
+
+        @media (min-width: 600px) {
+            .game-image { width: 160px; height: 64px; }
+            .game-title { font-size: 20px; }
+            .modal-image { width: 240px; height: 96px; }
+            .modal-title { font-size: 28px; }
+            .modal-body { flex-direction: row; justify-content: space-between; }
+            .btn-download-large { width: auto; align-self: flex-start; padding: 15px 30px; }
+        }
     </style>
 </head>
 <body>
 
-    <div class="container" id="mainContainer">
+    <div class="container">
         <div class="search-container">
             <input type="text" id="searchInput" class="search-input" placeholder="Buscar juego...">
         </div>
@@ -263,40 +269,19 @@
 
         const gamesList = document.getElementById('gamesList');
         const searchInput = document.getElementById('searchInput');
-
-        function ajustarEscala() {
-            const container = document.getElementById('mainContainer');
-            const anchoVentana = window.innerWidth - 20;
-            
-            if (anchoVentana < 720) {
-                const escala = anchoVentana / 720;
-                container.style.transform = `scale(${escala})`;
-                container.style.marginBottom = `${(container.offsetHeight * (1 - escala)) * -1}px`;
-            } else {
-                container.style.transform = 'scale(1)';
-                container.style.marginBottom = '0px';
-            }
-        }
-
-        window.addEventListener('resize', ajustarEscala);
-        window.addEventListener('load', ajustarEscala);
+        const mobile = window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
         async function loadIndexJson() {
             try {
-                const esCelular = window.innerWidth <= 720 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-                const archivoJson = esCelular ? 'indexMobile.json' : 'index.json';
-                
-                const response = await fetch(archivoJson);
+                const response = await fetch(mobile ? 'indexMobile.json' : 'index.json');
                 if (!response.ok) {
-                    throw new Error(`Error al cargar ${archivoJson}: ${response.status}`);
+                    throw new Error(`Error al cargar index.json: ${response.status}`);
                 }
                 gamesData = await response.json();
                 renderGames(gamesData);
-                
-                setTimeout(ajustarEscala, 50);
             } catch (error) {
                 console.error("Error cargando el archivo de catálogo:", error);
-                gamesList.innerHTML = '<div style="text-align:center; padding: 20px; color:#808080;">No se pudo cargar el archivo del catálogo. Asegúrate de ejecutar la página desde un servidor local.</div>';
+                gamesList.innerHTML = '<div style="text-align:center; padding: 20px; color:#808080;">No se pudo cargar el archivo index.json. Asegúrate de ejecutar la página desde un servidor local.</div>';
             }
         }
 
@@ -322,7 +307,6 @@
                 `;
                 gamesList.appendChild(card);
             });
-            ajustarEscala();
         }
 
         searchInput.addEventListener('input', (e) => {
