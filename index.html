@@ -273,7 +273,6 @@
             }
         }
 
-        // Renderizar lista de juegos
         function renderGames(data) {
             gamesList.innerHTML = '';
             if (!data || data.length === 0) {
@@ -298,14 +297,12 @@
             });
         }
 
-        // Filtrado en tiempo real
         searchInput.addEventListener('input', (e) => {
             const text = e.target.value.toLowerCase().trim();
             const filtered = gamesData.filter(g => g.name.toLowerCase().includes(text));
             renderGames(filtered);
         });
 
-        // Abrir Modal con detalles del juego
         function openModal(game) {
             document.getElementById('modalImg').src = game.image;
             document.getElementById('modalTitle').textContent = game.name;
@@ -326,12 +323,10 @@
             document.getElementById('gameModal').style.display = 'flex';
         }
 
-        // Cerrar Modal
         function closeModal() {
             document.getElementById('gameModal').style.display = 'none';
         }
 
-        // Cargar el JSON al abrir la página
         loadIndexJson();
     </script>
 </body>
