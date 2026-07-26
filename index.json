@@ -1,9 +1,6 @@
 [
     {
         "name": "UNDERTALE",
-        "format": ".rar",
-        "folder": "UNDERTALE",
-        "exe": "Undertale.exe",
         "font": "STEAMRIP",
         "info": ["UNDERTALE! The RPG game where you don't have to destroy anyone.","1 GHz","128MB VRAM",2,"200 MB"],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/391540/capsule_231x87.jpg?t=1757349115",
@@ -11,9 +8,6 @@
     },
     {
         "name": "UNDERTALE [ESP]",
-        "format": ".rar",
-        "folder": "UNDERTALE [ESP]",
-        "exe": "Undertale.exe",
         "font": "STEAMRIP",
         "info": ["UNDERTALE! El juego RPG donde no tienes que matar a cualquiera.<br><b>Si no aparece en español la primera vez cambialo en la configuracion<b/>","1 GHz","128MB VRAM",2,"200 MB"],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/391540/capsule_231x87.jpg?t=1757349115",
@@ -21,19 +15,13 @@
     },
     {
         "name": "DELTARUNE",
-        "format": ".zip",
-        "folder": "DELTARUNE",
-        "exe": "DELTARUNE.exe",
         "font": "STEAMRIP",
         "info": ["Dive into the parallel story to UNDERTALE! Fight or spare your way through action-packed battles as you explore a mysterious world alongside an endearing cast of new and familiar characters. Chapters 1-5 are available now, with more planned as free updates!","1 GHz and 64 Bits","128 MB VRAM and DirectX 12",2,"1 GB"],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_231x87.jpg?t=1782314340",
         "url": "https://drive.google.com/file/d/1R1X3iqZoCYHAX93dgHXUjzdlGA4wn8cq/view?usp=sharing"
     },
     {
-        "name": "DELTARUNE [ESP]",
-        "format": ".zip",
-        "folder": "DELTARUNE [ESP]",
-        "exe": "DELTARUNE.exe",
+        "name": "DELTARUNE [ESP]"
         "font": "STEAMRIP & LetraDelta",
         "info": ["Dive into the parallel story to UNDERTALE! Fight or spare your way through action-packed battles as you explore a mysterious world alongside an endearing cast of new and familiar characters. Chapters 1-5 are available now, with more planned as free updates!","1 GHz and 64 Bits","128 MB VRAM and DirectX 12",2,"1 GB"],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_231x87.jpg",
@@ -41,9 +29,6 @@
     },
     {
         "name": "UNDERTALE Bits & Pieces [ESP]",
-        "format": ".zip",
-        "folder": "UNDERTALE Bits & Pieces",
-        "exe": "UNDERTALEBNP.exe",
         "font": "Google Drive",
         "info": ["Undertale: Bits and Pieces was an unofficial mod of Toby Fox's Undertale, made by Team BnP, that reimagined the game.","1 GHz","128MB VRAM",2,"400 MB"],
         "image": "https://cdn2.steamgriddb.com/thumb/ec949b265c51e87f5db86a5d4f0360c4.jpg",
@@ -51,9 +36,6 @@
     },
     {
         "name": "WorldBox",
-        "format": ".zip",
-        "folder": "WorldBox",
-        "exe": "worldbox.exe",
         "font": "Game Bounty",
         "info": ["WorldBox is the ULTIMATE god simulator and sandbox game. A petri dish for your fantasy civilizations. Create your own world or destroy it using many powers.","2.0 Ghz","128MB VRAM",2.5,"300 MB"],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1206560/capsule_231x87.jpg",
@@ -61,9 +43,6 @@
     },
     {
         "name": "Balatro",
-        "format": ".zip",
-        "folder": "Balatro",
-        "exe": "Balatro.exe",
         "font": "STEAMRIP",
         "info": ["The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.","Intel Core i3","OpenGL 2.1",1,"100 MB"],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2379780/554b5f66f60e80b43f910cba21d23af16ed897be/capsule_231x87.jpg",
@@ -71,9 +50,6 @@
     },
     {
         "name": "Geometry Dash",
-        "format": ".rar",
-        "folder": "Geometry Dash",
-        "exe": "GeometryDash.exe",
         "font": "STEAMRIP",
         "info": ["Jump and fly your way through danger in this rhythm-based action platformer!","2.0+ GHz","OpenGL 2.0",1,"400 MB"],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/322170/capsule_231x87.jpg",
@@ -81,9 +57,6 @@
     },
     {
         "name": "Geometry Dash + Geode",
-        "format": ".zip",
-        "folder": "Geometry Dash + Geode",
-        "exe": "GeometryDash.exe",
         "font": "Google Drive",
         "info": ["Jump and fly your way through danger in this rhythm-based action platformer!<br>Geode is a fan-made extension for Geometry Dash that adds mod support to the game. Browse from an in-game list to seamlessly download mods.","2.0+ GHz","OpenGL 2.0",1,"400 MB"],
         "image": "https://i.redd.it/tblkh84aw9hc1.png",
@@ -91,19 +64,13 @@
     },
     {
         "name": "Minecraft (OptiCraft Launcher)",
-        "format": ".zip",
-        "folder": "OptiCraft JAVA Launcher",
-        "exe": "OptiCraft Launcher.exe",
-        "font": "Optiprojects",
+        "font": "OptiProjects",
         "info": ["No se","Pentium 4 2.2 GHz","OpenGL 1.2",1,"1 GB"],
         "image": "https://cdn2.steamgriddb.com/thumb/e353b610e9ce20f963b4cca5da565605.jpg",
         "url": "https://drive.google.com/file/d/1CPfn0b57oBqQz4FU_iJk6_bi4amd2DLl/view?usp=sharing"
     },
     {
         "name": "Among Us",
-        "format": ".zip",
-        "folder": "Among Us",
-        "exe": "Among Us.exe",
         "font": "Online Fix",
         "info": ["An online and local party game of teamwork and betrayal for 4-15 players...in space!","SSE2 instruction set support","DirectX 10",1,"1 GB"],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/945360/capsule_231x87.jpg",
@@ -111,9 +78,6 @@
     },
     {
         "name": "Super Mario 64 Coop DX",
-        "format": ".zip",
-        "folder": "Super Mario 64 Coop DX",
-        "exe": "sm64coopdx.exe",
         "font": "sm64coopdx.com",
         "info": ["sm64coopdx is an online multiplayer project for the Super Mario 64 PC port that supports widescreen, uncapped FPS, and has many toggleable options for customization to fit your desired experience. It has multiplayer up to 16 players and an ever growing powerful Lua modding API that allow modders and players to enjoy Super Mario 64 in more accessible and unique new ways!","1 GHz","DirectX 9",1,"100 MB"],
         "image": "https://cdn2.steamgriddb.com/logo_thumb/b97a7480910e37347b4368a6128f1ac6.png",
@@ -121,9 +85,6 @@
     },
     {
         "name": "Five Nights at Freddy’s",
-        "format": ".zip",
-        "folder": "FNAF 1",
-        "exe": "FiveNightsatFreddys.exe",
         "font": "STEAMRIP",
         "info": ["Five Nights at Freddy’s 1 (FNAF 1) is a very unusual horror quest in which players are invited to plunge into an eerie atmosphere in which Light is associated with life, and Darkness with death Welcome to your new summer job at Freddy Fazbear’s Pizza.","2 GHz","DirectX 9",1,"300 MB"],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/319510/capsule_231x87.jpg",
@@ -131,9 +92,6 @@
     },
     {
         "name": "Five Nights at Freddy’s 2",
-        "format": ".zip",
-        "folder": "FNAF 2",
-        "exe": "FiveNightsatFreddys2.exe",
         "font": "STEAMRIP",
         "info": ["Welcome back to the new and improved Freddy Fazbear’s Pizza In Five Nights at Freddy’s 2, the old and aging animatronics are joined by a new cast of characters.","2 GHz","DirectX 9",1,"300 MB"],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/332800/capsule_231x87.jpg",
@@ -141,9 +99,6 @@
     },
     {
         "name": "Five Nights at Freddy’s 3",
-        "format": ".zip",
-        "folder": "FNAF 3",
-        "exe": "FiveNightsatFreddys3.exe",
         "font": "STEAMRIP",
         "info": ["Thirty years after Freddy Fazbear’s Pizza closed it’s doors, the events that took place there have become nothing more than a rumor and a childhood memory, but the owners of 'Fazbear’s Fright: The Horror Attraction' are determined to revive the legend and make the experience as authentic as possible for patrons.","2 GHz","DirectX 9",1,"300 MB"],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/354140/capsule_231x87.jpg",
@@ -151,9 +106,6 @@
     },
     {
         "name": "Five Nights at Freddy’s 4",
-        "format": ".zip",
-        "folder": "FNAF 4",
-        "exe": "FiveNightsatFreddys4.exe",
         "font": "STEAMRIP",
         "info": ["This time, the terror has followed you home. In this last chapter of the Five Nights at Freddy’s original story, you must once again defend yourself against Freddy Fazbear, Chica, Bonnie, Foxy, and even worse things that lurk in the shadows.","2 GHz","DirectX 9",1,"600 MB"],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/388090/capsule_231x87.jpg",
@@ -161,9 +113,6 @@
     },
     {
         "name": "The King Of Fighters 2002 Magic Plus 2",
-        "format": ".zip",
-        "folder": "The King Of Fighters 2002 Magic Plus 2",
-        "exe": "The King Of Fighters 2002 Magic Plus 2.exe",
         "font": "Google Drive",
         "info": ["The King Of Fighters 2002 Magic Plus 2","1 GHz","DirectX 8",1,"100 MB"],
         "image": "https://cdn2.steamgriddb.com/thumb/be4d7403582645fe41d3921ac8ce530d.jpg",
