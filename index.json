@@ -8,7 +8,7 @@
     },
     {
         "name": "UNDERTALE [ESP]",
-        "font": "STEAMRIP",
+        "font": "STEAMRIP & undertale-spanish.com",
         "info": ["UNDERTALE! El juego RPG donde no tienes que matar a cualquiera.<br><b>Si no aparece en español la primera vez cambialo en la configuracion<b/>","1 GHz","128MB VRAM",2,"200 MB"],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/391540/capsule_231x87.jpg?t=1757349115",
         "url": "https://drive.google.com/file/d/1xv7Der7BimBoa8ZZ7Ekwd-ITz5CHFGPH/view?usp=sharing"
@@ -29,7 +29,7 @@
     },
     {
         "name": "UNDERTALE Bits & Pieces [ESP]",
-        "font": "Google Drive",
+        "font": "STEAMRIP & GameJolt",
         "info": ["Undertale: Bits and Pieces was an unofficial mod of Toby Fox's Undertale, made by Team BnP, that reimagined the game.","1 GHz","128MB VRAM",2,"400 MB"],
         "image": "https://cdn2.steamgriddb.com/thumb/ec949b265c51e87f5db86a5d4f0360c4.jpg",
         "url": "https://drive.google.com/file/d/1EfZYGxEAYAXrxSgbLfOvOu6XLDIi8fir/view?usp=sharing"
@@ -57,7 +57,7 @@
     },
     {
         "name": "Geometry Dash + Geode",
-        "font": "Google Drive",
+        "font": "STEAMRIP & Geode SDK",
         "info": ["Jump and fly your way through danger in this rhythm-based action platformer!<br>Geode is a fan-made extension for Geometry Dash that adds mod support to the game. Browse from an in-game list to seamlessly download mods.","2.0+ GHz","OpenGL 2.0",1,"400 MB"],
         "image": "https://i.redd.it/tblkh84aw9hc1.png",
         "url": "https://drive.google.com/file/d/1y_wnggRToJ1RFM46-fX_ElzNMo0eyF4R/view?usp=sharing"
@@ -142,7 +142,7 @@
     },
     {
         "name": "The King Of Fighters 2002 Magic Plus 2",
-        "font": "Google Drive",
+        "font": "Google",
         "info": ["The King Of Fighters 2002 Magic Plus 2","1 GHz","DirectX 8",1,"100 MB"],
         "image": "https://cdn2.steamgriddb.com/thumb/be4d7403582645fe41d3921ac8ce530d.jpg",
         "url": "https://drive.google.com/file/d/1CDO9iyQS03i2_hqYltfF_bKeOa1nM7BS/view?usp=sharing"
