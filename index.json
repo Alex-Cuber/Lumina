@@ -2,148 +2,260 @@
     {
         "name": "UNDERTALE",
         "font": "STEAMRIP",
-        "info": ["UNDERTALE! The RPG game where you don't have to destroy anyone.","1 GHz","128MB VRAM",2,"200 MB"],
+        "info": [
+            "UNDERTALE! The RPG game where you don't have to destroy anyone.",
+            "1 GHz",
+            "128MB VRAM",
+            2,
+            "200 MB"
+        ],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/391540/capsule_231x87.jpg?t=1757349115",
         "url": "https://drive.google.com/file/d/1wpVKSMtQHOdZjUV2t5lGKKFyGGxl1kOC/view?usp=sharing"
     },
     {
         "name": "UNDERTALE [ESP]",
-        "font": "STEAMRIP & undertale-spanish.com",
-        "info": ["UNDERTALE! El juego RPG donde no tienes que matar a cualquiera.<br><b>Si no aparece en español la primera vez cambialo en la configuracion<b/>","1 GHz","128MB VRAM",2,"200 MB"],
+        "font": "STEAMRIP",
+        "info": [
+            "UNDERTALE! El juego RPG donde no tienes que matar a cualquiera.<br><b>Si no aparece en español la primera vez cambialo en la configuracion<b/>",
+            "1 GHz",
+            "128MB VRAM",
+            2,
+            "200 MB"
+        ],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/391540/capsule_231x87.jpg?t=1757349115",
         "url": "https://drive.google.com/file/d/1xv7Der7BimBoa8ZZ7Ekwd-ITz5CHFGPH/view?usp=sharing"
     },
     {
-        "name": "DELTARUNE",
-        "font": "STEAMRIP",
-        "info": ["Dive into the parallel story to UNDERTALE! Fight or spare your way through action-packed battles as you explore a mysterious world alongside an endearing cast of new and familiar characters. Chapters 1-5 are available now, with more planned as free updates!","1 GHz and 64 Bits","128 MB VRAM and DirectX 12",2,"1 GB"],
-        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_231x87.jpg?t=1782314340",
-        "url": "https://drive.google.com/file/d/1R1X3iqZoCYHAX93dgHXUjzdlGA4wn8cq/view?usp=sharing"
-    },
-    {
         "name": "DELTARUNE [ESP]",
         "font": "STEAMRIP & LetraDelta",
-        "info": ["Dive into the parallel story to UNDERTALE! Fight or spare your way through action-packed battles as you explore a mysterious world alongside an endearing cast of new and familiar characters. Chapters 1-5 are available now, with more planned as free updates!","1 GHz and 64 Bits","128 MB VRAM and DirectX 12",2,"1 GB"],
+        "info": [
+            "¡Sumérgete en la historia paralela a UNDERTALE! Lucha o perdona a tus adversarios en combates llenos de acción mientras exploras un mundo misterioso junto a un elenco entrañable de personajes nuevos y conocidos. ¡Ya están disponibles los capítulos del 1 al 5, y hay más previstos como actualizaciones gratuitas!",
+            "1 GHz and 64 Bits",
+            "128 MB VRAM and DirectX 12",
+            2,
+            "1 GB"
+        ],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1671210/capsule_231x87.jpg",
-        "url": "https://drive.google.com/file/d/1pq56AYikjGbNDiuNgjpUXD4AnYsr8H6y/view?usp=sharing"
+        "url": "https://drive.google.com/file/d/1-ndrjEODRNZnW3hFr7E04__CTkGM9VN0/view?usp=sharing"
     },
     {
         "name": "UNDERTALE Bits & Pieces [ESP]",
         "font": "STEAMRIP & GameJolt",
-        "info": ["Undertale: Bits and Pieces was an unofficial mod of Toby Fox's Undertale, made by Team BnP, that reimagined the game.","1 GHz","128MB VRAM",2,"400 MB"],
+        "info": [
+            "Undertale: Bits and Pieces was an unofficial mod of Toby Fox's Undertale, made by Team BnP, that reimagined the game.",
+            "1 GHz",
+            "128MB VRAM",
+            2,
+            "400 MB"
+        ],
         "image": "https://cdn2.steamgriddb.com/thumb/ec949b265c51e87f5db86a5d4f0360c4.jpg",
         "url": "https://drive.google.com/file/d/1EfZYGxEAYAXrxSgbLfOvOu6XLDIi8fir/view?usp=sharing"
     },
     {
         "name": "WorldBox",
         "font": "Game Bounty",
-        "info": ["WorldBox is the ULTIMATE god simulator and sandbox game. A petri dish for your fantasy civilizations. Create your own world or destroy it using many powers.","2.0 Ghz","128MB VRAM",2.5,"300 MB"],
+        "info": [
+            "WorldBox is the ULTIMATE god simulator and sandbox game. A petri dish for your fantasy civilizations. Create your own world or destroy it using many powers.",
+            "2.0 Ghz",
+            "128MB VRAM",
+            2.5,
+            "300 MB"
+        ],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1206560/capsule_231x87.jpg",
         "url": "https://drive.google.com/file/d/1NMui9UkmtXO91ITCLqQrm_JgI638Vywj/view?usp=sharing"
     },
     {
         "name": "Balatro",
         "font": "STEAMRIP",
-        "info": ["The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.","Intel Core i3","OpenGL 2.1",1,"100 MB"],
+        "info": [
+            "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
+            "Intel Core i3",
+            "OpenGL 2.1",
+            1,
+            "100 MB"
+        ],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2379780/554b5f66f60e80b43f910cba21d23af16ed897be/capsule_231x87.jpg",
         "url": "https://drive.google.com/file/d/1uCFGSwqUZXWcnm7s8ty1LKiyLuQFAhMD/view?usp=sharing"
     },
     {
         "name": "Geometry Dash",
         "font": "STEAMRIP",
-        "info": ["Jump and fly your way through danger in this rhythm-based action platformer!","2.0+ GHz","OpenGL 2.0",1,"400 MB"],
+        "info": [
+            "Jump and fly your way through danger in this rhythm-based action platformer!",
+            "2.0+ GHz",
+            "OpenGL 2.0",
+            1,
+            "400 MB"
+        ],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/322170/capsule_231x87.jpg",
         "url": "https://drive.google.com/file/d/1v4enKXCQ0Tz58f5wCAfCrW6iJrwMkvEf/view?usp=sharing"
     },
     {
         "name": "Geometry Dash + Geode",
         "font": "STEAMRIP & Geode SDK",
-        "info": ["Jump and fly your way through danger in this rhythm-based action platformer!<br>Geode is a fan-made extension for Geometry Dash that adds mod support to the game. Browse from an in-game list to seamlessly download mods.","2.0+ GHz","OpenGL 2.0",1,"400 MB"],
+        "info": [
+            "Jump and fly your way through danger in this rhythm-based action platformer!<br>Geode is a fan-made extension for Geometry Dash that adds mod support to the game. Browse from an in-game list to seamlessly download mods.",
+            "2.0+ GHz",
+            "OpenGL 2.0",
+            1,
+            "400 MB"
+        ],
         "image": "https://i.redd.it/tblkh84aw9hc1.png",
         "url": "https://drive.google.com/file/d/1y_wnggRToJ1RFM46-fX_ElzNMo0eyF4R/view?usp=sharing"
     },
     {
         "name": "Minecraft (OptiCraft Launcher)",
-        "font": "OptiProjects",
-        "info": ["No se","Pentium 4 2.2 GHz","OpenGL 1.2",1,"1 GB"],
+        "font": "OptiJuegos",
+        "info": [
+            "No se",
+            "Pentium 4 2.2 GHz",
+            "OpenGL 1.2",
+            1,
+            "1 GB"
+        ],
         "image": "https://cdn2.steamgriddb.com/thumb/e353b610e9ce20f963b4cca5da565605.jpg",
         "url": "https://drive.google.com/file/d/1CPfn0b57oBqQz4FU_iJk6_bi4amd2DLl/view?usp=sharing"
     },
     {
         "name": "Among Us",
         "font": "Online Fix",
-        "info": ["An online and local party game of teamwork and betrayal for 4-15 players...in space!","SSE2 instruction set support","DirectX 10",1,"1 GB"],
+        "info": [
+            "An online and local party game of teamwork and betrayal for 4-15 players...in space!",
+            "SSE2 instruction set support",
+            "DirectX 10",
+            1,
+            "1 GB"
+        ],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/945360/capsule_231x87.jpg",
         "url": "https://drive.google.com/file/d/1jIGtyd7DnCyDgasD_7r6x86MHzJJR31l/view?usp=sharing"
     },
     {
         "name": "Super Mario 64 Coop DX",
         "font": "sm64coopdx.com",
-        "info": ["sm64coopdx is an online multiplayer project for the Super Mario 64 PC port that supports widescreen, uncapped FPS, and has many toggleable options for customization to fit your desired experience. It has multiplayer up to 16 players and an ever growing powerful Lua modding API that allow modders and players to enjoy Super Mario 64 in more accessible and unique new ways!","1 GHz","DirectX 9",1,"100 MB"],
+        "info": [
+            "sm64coopdx is an online multiplayer project for the Super Mario 64 PC port that supports widescreen, uncapped FPS, and has many toggleable options for customization to fit your desired experience. It has multiplayer up to 16 players and an ever growing powerful Lua modding API that allow modders and players to enjoy Super Mario 64 in more accessible and unique new ways!",
+            "1 GHz",
+            "DirectX 9",
+            1,
+            "100 MB"
+        ],
         "image": "https://cdn2.steamgriddb.com/logo_thumb/b97a7480910e37347b4368a6128f1ac6.png",
         "url": "https://drive.google.com/file/d/1DaquFIZglky3VszuYgqnrCeDGVkS160D/view?usp=sharing"
     },
     {
         "name": "Hollow Knight",
         "font": "OptiJuegos",
-        "info": ["Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of insects and heroes. Explore twisting caverns, battle tainted creatures and befriend bizarre bugs, all in a classic, hand-drawn 2D style.","Intel Core i3-3240","GTX 560 Ti",4,"8 GB"],
+        "info": [
+            "Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of insects and heroes. Explore twisting caverns, battle tainted creatures and befriend bizarre bugs, all in a classic, hand-drawn 2D style.",
+            "Intel Core i3-3240",
+            "GTX 560 Ti",
+            4,
+            "8 GB"
+        ],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/367520/fba7289f4c7e90ae9c0caa87e4225f3f9111d7dd/capsule_231x87.jpg",
         "url": "https://drive.google.com/file/d/1X3ETsU-3gJoYQjyBVJ6jOiYTg2vGyeyy/view?usp=sharing"
     },
-    
     {
         "name": "Cuphead",
         "font": "OptiJuegos",
-        "info": ["Cuphead is a classic run and gun action game heavily focused on boss battles. Inspired by cartoons of the 1930s, the visuals and audio are painstakingly created with the same techniques of the era, i.e. traditional hand drawn cel animation, watercolor backgrounds, and original jazz recordings.","Intel Core2 Duo E8400, 3.0GHz","Geforce 9600 GT",3,"12 GB"],
+        "info": [
+            "Cuphead is a classic run and gun action game heavily focused on boss battles. Inspired by cartoons of the 1930s, the visuals and audio are painstakingly created with the same techniques of the era, i.e. traditional hand drawn cel animation, watercolor backgrounds, and original jazz recordings.",
+            "Intel Core2 Duo E8400, 3.0GHz",
+            "Geforce 9600 GT",
+            3,
+            "12 GB"
+        ],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/268910/capsule_231x87.jpg",
         "url": "https://drive.google.com/file/d/1wk56tuCcEGzcZCxMEwy5lsA_6Fa7Lbii/view?usp=sharing"
     },
     {
         "name": "Five Nights at Freddy’s",
         "font": "STEAMRIP",
-        "info": ["Five Nights at Freddy’s 1 (FNAF 1) is a very unusual horror quest in which players are invited to plunge into an eerie atmosphere in which Light is associated with life, and Darkness with death Welcome to your new summer job at Freddy Fazbear’s Pizza.","2 GHz","DirectX 9",1,"300 MB"],
+        "info": [
+            "Five Nights at Freddy’s 1 (FNAF 1) is a very unusual horror quest in which players are invited to plunge into an eerie atmosphere in which Light is associated with life, and Darkness with death Welcome to your new summer job at Freddy Fazbear’s Pizza.",
+            "2 GHz",
+            "DirectX 9",
+            1,
+            "300 MB"
+        ],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/319510/capsule_231x87.jpg",
         "url": "https://drive.google.com/file/d/1jJAINQIbOcIz5HsO6FM-wBnPjyb6q6td/view?usp=sharing"
     },
     {
         "name": "Five Nights at Freddy’s 2",
         "font": "STEAMRIP",
-        "info": ["Welcome back to the new and improved Freddy Fazbear’s Pizza In Five Nights at Freddy’s 2, the old and aging animatronics are joined by a new cast of characters.","2 GHz","DirectX 9",1,"300 MB"],
+        "info": [
+            "Welcome back to the new and improved Freddy Fazbear’s Pizza In Five Nights at Freddy’s 2, the old and aging animatronics are joined by a new cast of characters.",
+            "2 GHz",
+            "DirectX 9",
+            1,
+            "300 MB"
+        ],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/332800/capsule_231x87.jpg",
         "url": "https://drive.google.com/file/d/1grj2DFCTZmAYdRJmx722kzfu1JAvaTyh/view?usp=sharing"
     },
     {
         "name": "Five Nights at Freddy’s 3",
         "font": "STEAMRIP",
-        "info": ["Thirty years after Freddy Fazbear’s Pizza closed it’s doors, the events that took place there have become nothing more than a rumor and a childhood memory, but the owners of 'Fazbear’s Fright: The Horror Attraction' are determined to revive the legend and make the experience as authentic as possible for patrons.","2 GHz","DirectX 9",1,"300 MB"],
+        "info": [
+            "Thirty years after Freddy Fazbear’s Pizza closed it’s doors, the events that took place there have become nothing more than a rumor and a childhood memory, but the owners of 'Fazbear’s Fright: The Horror Attraction' are determined to revive the legend and make the experience as authentic as possible for patrons.",
+            "2 GHz",
+            "DirectX 9",
+            1,
+            "300 MB"
+        ],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/354140/capsule_231x87.jpg",
         "url": "https://drive.google.com/file/d/1-7143tmJv--wNBNd3pkIjZjL9QR1K-le/view?usp=sharing"
     },
     {
         "name": "Five Nights at Freddy’s 4",
         "font": "STEAMRIP",
-        "info": ["This time, the terror has followed you home. In this last chapter of the Five Nights at Freddy’s original story, you must once again defend yourself against Freddy Fazbear, Chica, Bonnie, Foxy, and even worse things that lurk in the shadows.","2 GHz","DirectX 9",1,"600 MB"],
+        "info": [
+            "This time, the terror has followed you home. In this last chapter of the Five Nights at Freddy’s original story, you must once again defend yourself against Freddy Fazbear, Chica, Bonnie, Foxy, and even worse things that lurk in the shadows.",
+            "2 GHz",
+            "DirectX 9",
+            1,
+            "600 MB"
+        ],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/388090/capsule_231x87.jpg",
         "url": "https://drive.google.com/file/d/1QgRNnVaT4b0VCGaEnyqcrA0iSOLkphhf/view?usp=sharing"
     },
     {
         "name": "Five Nights at Freddy’s Sister Location",
         "font": "STEAMRIP",
-        "info": ["Welcome to Circus Baby’s Pizza World, where family fun and interactivity go beyond anything you’ve seen at those *other* pizza places! With cutting-edge animatronic entertainers that will knock your kids’ socks off, as well as customized pizza catering, no party is complete without Circus Baby and the gang Now hiring: Late night technician.","2 GHz","DirectX 10",1,"1 GB"],
+        "info": [
+            "Welcome to Circus Baby’s Pizza World, where family fun and interactivity go beyond anything you’ve seen at those *other* pizza places! With cutting-edge animatronic entertainers that will knock your kids’ socks off, as well as customized pizza catering, no party is complete without Circus Baby and the gang Now hiring: Late night technician.",
+            "2 GHz",
+            "DirectX 10",
+            1,
+            "1 GB"
+        ],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/506610/capsule_231x87.jpg",
         "url": "https://drive.google.com/file/d/1FNjNlhKdExGMSy2pVrz68_8g8NRX2sF1/view?usp=sharing"
     },
     {
         "name": "Metal Slug Collection",
         "font": "OptiJuegos",
-        "info": ["Metal Slug 1 - 6","2 GHz","DirectX 9",4,"2.5 GB"],
+        "info": [
+            "Metal Slug 1 - 6",
+            "2 GHz",
+            "DirectX 9",
+            4,
+            "2.5 GB"
+        ],
         "image": "https://cdn2.steamgriddb.com/logo_thumb/ab6ef074b86ed41809fa9ad6f22bf862.png",
         "url": "https://drive.google.com/file/d/17yfytfziTiB23ygAZoVzq05OfWQJcqM9/view?usp=sharing"
     },
     {
         "name": "The King Of Fighters 2002 Magic Plus 2",
         "font": "Google",
-        "info": ["The King Of Fighters 2002 Magic Plus 2","1 GHz","DirectX 8",1,"100 MB"],
+        "info": [
+            "The King Of Fighters 2002 Magic Plus 2",
+            "1 GHz",
+            "DirectX 8",
+            1,
+            "100 MB"
+        ],
         "image": "https://cdn2.steamgriddb.com/thumb/be4d7403582645fe41d3921ac8ce530d.jpg",
         "url": "https://drive.google.com/file/d/1CDO9iyQS03i2_hqYltfF_bKeOa1nM7BS/view?usp=sharing"
     }
