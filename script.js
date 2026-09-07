@@ -36,13 +36,13 @@ function renderGames(data) {
                 <div class="game-title">${game.name}</div>
                 <div class="game-font">Fuente: ${game.font || 'Desconocida'}</div>
             </div>
-            <a class="btn-download" href="${game.url}" target="_blank" onclick="event.stopPropagation()">Descargar</a>
         ` : `
             <img class="game-image" src="${game.image}" alt="${game.name}">
             <div class="game-info">
                 <div class="game-title">${game.name}</div>
                 <div class="game-font">Fuente: ${game.font || 'Desconocida'}</div>
             </div>
+            <a class="btn-download" href="${game.url}" target="_blank" onclick="event.stopPropagation()">Descargar</a>
         `;
         gamesList.appendChild(card);
     });
