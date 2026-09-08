@@ -1,0 +1,265 @@
+[
+    {
+        "name": "FCeux",
+        "console": "NES",
+        "folder": "fceux",
+        "exe": "fceux64.exe",
+        "format": ".zip",
+        "url": "https://drive.google.com/file/d/1eUytdH_LjaQgaVSDFmyliXa1EI8ekbdo/view?usp=sharing"
+    },
+    {
+        "name": "SuperZSNES",
+        "console": "SNES",
+        "folder": "SuperZSNES",
+        "exe": "SUPERZSNES.exe",
+        "format": ".zip",
+        "url": "https://drive.google.com/file/d/18T8E9RsnnIm5z_6fwgeTC8X0mJWMGGKq/view?usp=sharing"
+    },
+    {
+        "name": "Fusion",
+        "console": "SEGA Genesis",
+        "folder": "Fusion364",
+        "exe": "Fusion.exe",
+        "format": ".zip",
+        "url": "https://dl.emulator-zone.com/download.php/emulators/genesis/fusion/Fusion364.zip"
+    },
+    {
+        "name": "Project64",
+        "console": "Nintendo 64",
+        "folder": "Project64",
+        "exe": "Project64.exe",
+        "format": ".zip",
+        "url": "https://drive.google.com/file/d/1f8CeYD6oNEvN4minEni_c7cMr9kJDaRF/view?usp=sharing"
+    },
+    {
+        "name": "Dolphin",
+        "console": "GameCube / Wii",
+        "folder": "Dolphin",
+        "exe": "Dolphin.exe",
+        "format": ".zip",
+        "url": "https://drive.google.com/file/d/1COFP6VWGjfRxQZ9WvVl0Jzij6xONCpuK/view?usp=sharing"
+    },
+    {
+        "name": "mGBA",
+        "console": "Game Boy Advance",
+        "folder": "mGBA",
+        "exe": "mGBA.exe",
+        "format": ".zip",
+        "url": "https://drive.google.com/file/d/1jpHV_9qaDyo4JFZjV9jgP1s3AfjiwvQa/view?usp=sharing"
+    },
+    {
+        "name": "DeSmuMe",
+        "console": "Nintendo DS",
+        "folder": "DeSmuMe",
+        "exe": "DeSmuMe_x64.exe",
+        "format": ".zip",
+        "url": "https://drive.google.com/file/d/1vPUO2Pso1B4mqgqztZBo4V9Ag04FzbDz/view?usp=sharing"
+    },
+    {
+        "name": "Super Mario Bros",
+        "console": "NES",
+        "romFormat": ".nes",
+        "emulator": "fceux/fceux64.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/a5e8659a38cead8c29f29af3aa637e0e.jpg",
+        "url": "https://s1.hexrom.com/rom/nes/Super_Mario_Bros%5Bhexrom.com%5D.%20.zip"
+    },
+    {
+        "name": "Super Mario Bros 2",
+        "console": "NES",
+        "romFormat": ".nes",
+        "emulator": "fceux/fceux64.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/b1790a55a67906c18bd9a046e17c5935.jpg",
+        "url": "https://s1.hexrom.com/rom/nes/Super_Mario_Bros%5Bhexrom.com%5D.%202%20.zip"
+    },
+    {
+        "name": "Super Mario Bros 3",
+        "console": "NES",
+        "romFormat": ".nes",
+        "emulator": "fceux/fceux64.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/b88acabbdca6509c2147d95fb83bd673.jpg",
+        "url": "https://s1.hexrom.com/rom/nes/Super_Mario_Bros%5Bhexrom.com%5D.%203%20.zip"
+    },
+    {
+        "name": "The Legend Of Zelda",
+        "console": "NES",
+        "romFormat": ".nes",
+        "emulator": "fceux/fceux64.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/fd4771e85e1f916f239624486bff502d.jpg",
+        "url": "https://drive.google.com/file/d/1jCi2BVczaK2JS4yWj_cy_MVumJWjxiFO/view?usp=sharing"
+    },
+    {
+        "name": "Zelda II – The Adventure Of Link",
+        "console": "NES",
+        "romFormat": ".nes",
+        "emulator": "fceux/fceux64.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/f2cac9bdf789976b7fcbd2c6784a8499.jpg",
+        "url": "https://s1.hexrom.com/rom/nes/Zelda_II_The_Adventure_of_Link_%5Bhexrom.com%5D.zip"
+    },
+    {
+        "name": "Kirby's Adventure",
+        "console": "NES",
+        "romFormat": ".nes",
+        "emulator": "fceux/fceux64.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/d0b4e54ddd9f0982db522becb8041071.jpg",
+        "url": "https://s1.hexrom.com/rom/nes/Kirbys_Adventure_%5Bhexrom.com%5D.zip"
+    },
+    {
+        "name": "Super Mario World",
+        "console": "SNES",
+        "romFormat": ".smc",
+        "emulator": "SuperZSNES/SUPERZSNES.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/d60b6f1f6b6772254eb4f6547e00c9ae.jpg",
+        "url": "https://s2.hexrom.com/rom/super-mario-world-rom_hexrom_com.zip"
+    },
+    {
+        "name": "Sonic The Hedgehog",
+        "console": "SEGA Genesis",
+        "romFormat": ".md",
+        "emulator": "Fusion364/Fusion.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/7b9d31aa17b849b238ab79cef0733041.jpg",
+        "url": "https://drive.google.com/file/d/1h-ZAEkMuAuq77b5qMX1XqzES1bVUDW-2/view?usp=sharing"
+    },
+    {
+        "name": "Sonic The Hedgehog 2",
+        "console": "SEGA Genesis",
+        "romFormat": ".md",
+        "emulator": "Fusion364/Fusion.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/3ca44a5497b137af783e6e40f63e5213.jpg",
+        "url": "https://drive.google.com/file/d/1hxCAbMZhZm5MwhcGO5-zz4ZV4xqxAlO5/view?usp=sharing"
+    },
+    {
+        "name": "Sonic The Hedgehog 3",
+        "console": "SEGA Genesis",
+        "romFormat": ".md",
+        "emulator": "Fusion364/Fusion.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/d849ebf751153250ff349088fe4c10e8.jpg",
+        "url": "https://drive.google.com/file/d/19KKliVH4mjWOrc42uxTUZdkt9cAxaPE6/view?usp=sharing"
+    },
+    {
+        "name": "Sonic The Hedgehog 3 & Knuckels",
+        "console": "SEGA Genesis",
+        "romFormat": ".md",
+        "emulator": "Fusion364/Fusion.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/400c8d3d90d3c1350c3b8b6fa0941e66.jpg",
+        "url": "https://drive.google.com/file/d/19KKliVH4mjWOrc42uxTUZdkt9cAxaPE6/view?usp=sharing"
+    },
+    {
+        "name": "Super Mario 64",
+        "console": "Nintendo 64",
+        "romFormat": ".z64",
+        "emulator": "Project64/Project64.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/dcfd8313e81a8482c23165f7abf5d1ef.jpg",
+        "url": "https://s1.hexrom.com/rom/n64/Super_Mario_64_%5Bhexrom.com%5D.zip"
+    },
+    {
+        "name": "Mario Kart 64",
+        "console": "Nintendo 64",
+        "romFormat": ".z64",
+        "emulator": "Project64/Project64.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/5c18451ace5d9c3f7e8b54576eb89ee8.jpg",
+        "url": "https://s1.hexrom.com/rom/n64/Mario_Kart_64_%5Bhexrom.com%5D.zip"
+    },
+    {
+        "name": "Super Smash Bros",
+        "console": "Nintendo 64",
+        "romFormat": ".z64",
+        "emulator": "Project64/Project64.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/4d14689df5ce2dc8eda74c4e940e5f5f.jpg",
+        "url": "https://s1.hexrom.com/rom/n64/Super_Smash_Bros%5Bhexrom.com%5D.%20.zip"
+    },
+    {
+        "name": "The Legend Of Zelda – Ocarina Of Time",
+        "console": "Nintendo 64",
+        "romFormat": ".z64",
+        "emulator": "Project64/Project64.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/0412f2d94b74e26115fc4755ff01a876.jpg",
+        "url": "https://s1.hexrom.com/rom/n64/Legend_of_Zelda_The_Ocarina_of_Time_%5Bhexrom.com%5D.zip"
+    },
+    {
+        "name": "The Legend Of Zelda – Majora's Mask",
+        "console": "Nintendo 64",
+        "romFormat": ".z64",
+        "emulator": "Project64/Project64.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/6e4243f5511fd6ef0f03e9f386d54403.jpg",
+        "url": "https://s1.hexrom.com/rom/n64/Legend_of_Zelda_The_Majoras_Mask_%5Bhexrom.com%5D.zip"
+    },
+    {
+        "name": "Paper Mario",
+        "console": "Nintendo 64",
+        "romFormat": ".z64",
+        "emulator": "Project64/Project64.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/eebf8c4112978252010dbe58d06ad568.png",
+        "url": "https://s1.hexrom.com/rom/n64/Paper_Mario_%5Bhexrom.com%5D.zip"
+    },
+    {
+        "name": "Donkey Kong 64",
+        "console": "Nintendo 64",
+        "romFormat": ".z64",
+        "emulator": "Project64/Project64.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/5cc6cf8852ea8f2aa08d808872968839.jpg",
+        "url": "https://s1.hexrom.com/rom/n64/Donkey_Kong_64_%5Bhexrom.com%5D.zip"
+    },
+    {
+        "name": "Super Mario Sunshine",
+        "console": "GameCube",
+        "romFormat": ".rvz",
+        "emulator": "Dolphin/Dolphin.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/5e9d17e41f784ae361ada1d0817186f6.png",
+        "url": "https://s3.hexrom.com/gamecube/Super_Mario_Sunshine_%5Bhexrom.com%5D.zip"
+    },
+    {
+        "name": "Super Smash Bros. Melee",
+        "console": "GameCube",
+        "romFormat": ".rvz",
+        "emulator": "Dolphin/Dolphin.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/f9aa778d602c7ba036e50f85deeb7250.jpg",
+        "url": "https://s3.hexrom.com/gamecube/Super_Smash_Bros%5Bhexrom.com%5D.%20Melee%20.zip"
+    },
+    {
+        "name": "Super Mario Galaxy",
+        "console": "Wii",
+        "romFormat": ".gcz",
+        "emulator": "Dolphin/Dolphin.exe",
+        "format": "",
+        "image": "https://cdn2.steamgriddb.com/thumb/605c7692e11cdda582e77328f02b5447.jpg",
+        "url": "https://s3.hexrom.com/rom/wii/Super%20Mario%20Galaxy%20(USA)%20(En,Fr,Es).nkit.gcz"
+    },
+    {
+        "name": "New Super Mario Bros Wii",
+        "console": "Wii",
+        "romFormat": ".rvz",
+        "emulator": "Dolphin/Dolphin.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/05d8cccb5f47e5072f0a05b5f514941a.jpg",
+        "url": "https://s3.hexrom.com/wii/New_Super_Mario_Bros%5Bhexrom.com%5D.%20Wii%20.zip"
+    },
+    {
+        "name": "Super Mario Advance 4",
+        "console": "Game Boy Advance",
+        "romFormat": ".gba",
+        "emulator": "mGBA/mGBA.exe",
+        "format": ".zip",
+        "image": "https://cdn2.steamgriddb.com/thumb/131aec1561c237e0468810f9f4f2ecbb.jpg",
+        "url": "https://s1.hexrom.com/rom/gba/Super_Mario_Advance_4_Super_Mario_Bros%5Bhexrom.com%5D.%203%20.zip"
+    }
+]

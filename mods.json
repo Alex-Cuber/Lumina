@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Mods Epicardos FULL (CAMBIOS NO REVERSIBLES)",
+        "game": "Minecraft <b>[Forge 1.20.1]",
+        "folder": "mods/[forge]ctov-3.4.14.jar",
+        "format": ".zip",
+        "destFolder": "OptiCraft JAVA Launcher/mcdata/",
+        "page": "",
+        "image": "https://cdn.modrinth.com/data/UNMsnAWW/d3085d7e047c48dcb012988df89acc27dc2d23ef.png",
+        "url": "https://drive.google.com/file/d/1dD8Dn3cATs3OYf_ZJH40wU4A4Ix-JWJD/view?usp=sharing"
+    },
+    {
+        "name": "Mods Epicardos LOW (CAMBIOS NO REVERSIBLES)",
+        "game": "Minecraft <b>[Forge 1.20.1]",
+        "folder": "mods/create-1.20.1-6.0.8.jar",
+        "format": ".zip",
+        "destFolder": "OptiCraft JAVA Launcher/mcdata/",
+        "page": "",
+        "image": "https://cdn.modrinth.com/data/UNMsnAWW/d3085d7e047c48dcb012988df89acc27dc2d23ef.png",
+        "url": "https://drive.google.com/file/d/1K5beIhCQYed5WPfAnhezVY-GGhhqnU6L/view?usp=sharing"
+    },
+    {
+        "name": "PENUMBRA PHANTASM",
+        "game": "Minecraft <b>[Forge 1.20.1]",
+        "folder": "PENUMBRA PHANTASM.jar",
+        "format": ".jar",
+        "destFolder": "OptiCraft JAVA Launcher/mcdata/mods/",
+        "page": "https://github.com/SGUDestiny/PenumbraPhantasm/",
+        "image": "https://static.wikia.nocookie.net/logopedia/images/4/42/Deltarune_Icon.png/revision/latest/scale-to-width-down/250",
+        "url": "https://github.com/SGUDestiny/PenumbraPhantasm/releases/download/bleeding-edge-release/penumbra_phantasm-1.20.1-1.0-all.jar"
+    },
+    {
+        "name": "Odyssey Mario's Moveset: Rebirth",
+        "game": "Super Mario 64 Coop DX",
+        "folder": "omm-coop",
+        "format": ".zip",
+        "destFolder": "Super Mario 64 Coop DX/mods/",
+        "page": "https://mods.sm64coopdx.com/mods/odyssey-marios-moveset-rebirth.125/",
+        "image": "https://mods.sm64coopdx.com/data/resource_icons/0/125.jpg",
+        "url": "https://github.com/PeachyPeachSM64/coopdx-mods-omm-rebirth/releases/download/v1.4/omm-coop.zip"
+    },
+    {
+        "name": "Character Select",
+        "game": "Super Mario 64 Coop DX",
+        "folder": "character-select-coop",
+        "format": ".zip",
+        "destFolder": "Super Mario 64 Coop DX/mods/",
+        "page": "https://mods.sm64coopdx.com/mods/character-select.149/",
+        "image": "https://mods.sm64coopdx.com/data/resource_icons/0/149.jpg",
+        "url": "https://github.com/Squishy6094/character-select-coop/releases/download/v1.16.3/character-select-coop.zip"
+    },
+    {
+        "name": "[CS] Deltarune Cast",
+        "game": "Super Mario 64 Coop DX",
+        "folder": "[CS] Kris DW",
+        "format": ".zip",
+        "destFolder": "Super Mario 64 Coop DX/mods/",
+        "page": "https://mods.sm64coopdx.com/mods/cs-deltarune-cast.1230/",
+        "image": "https://mods.sm64coopdx.com/data/resource_icons/1/1230.jpg",
+        "url": "https://mods.sm64coopdx.com/mods/cs-deltarune-cast.1230/download"
+    },
+    {
+        "name": "[CS] Ralsei & Fun Gang",
+        "game": "Super Mario 64 Coop DX",
+        "folder": "[CS] Kris",
+        "format": ".zip",
+        "destFolder": "Super Mario 64 Coop DX/mods/",
+        "page": "https://mods.sm64coopdx.com/mods/cs-ralsei-fun-gang.800/",
+        "image": "https://mods.sm64coopdx.com/data/resource_icons/0/800.jpg",
+        "url": "https://mods.sm64coopdx.com/mods/cs-ralsei-fun-gang.800/download"
+    },
+    {
+        "name": "[CS] Gerson boom",
+        "game": "Super Mario 64 Coop DX",
+        "folder": "[CS] Gerson Boom Moveset",
+        "format": ".zip",
+        "destFolder": "Super Mario 64 Coop DX/mods/",
+        "page": "https://mods.sm64coopdx.com/mods/cs-deltarune-ch4-secret-boss-moveset.758/",
+        "image": "https://mods.sm64coopdx.com/data/resource_icons/0/758.jpg",
+        "url": "https://mods.sm64coopdx.com/mods/cs-deltarune-ch4-secret-boss-moveset.758/version/1323/download?file=4906"
+    },
+    {
+        "name": "[CS] Lancer",
+        "game": "Super Mario 64 Coop DX",
+        "folder": "[CS] Lancer Example",
+        "format": ".zip",
+        "destFolder": "Super Mario 64 Coop DX/mods/",
+        "page": "https://mods.sm64coopdx.com/mods/cs-deltarune-ch4-secret-boss-moveset.758/",
+        "image": "https://mods.sm64coopdx.com/attachments/1751055812130-png.4909/",
+        "url": "https://mods.sm64coopdx.com/mods/cs-deltarune-ch4-secret-boss-moveset.758/version/1323/download?file=4907"
+    },
+    {
+        "name": "[CS] Spamton",
+        "game": "Super Mario 64 Coop DX",
+        "folder": "char-select-spamton",
+        "format": ".zip",
+        "destFolder": "Super Mario 64 Coop DX/mods/",
+        "page": "https://mods.sm64coopdx.com/mods/cs-spamton.6/",
+        "image": "https://mods.sm64coopdx.com/data/resource_icons/0/6.jpg",
+        "url": "https://mods.sm64coopdx.com/mods/cs-spamton.6/download"
+    },
+    {
+        "name": "[CS] Flowery",
+        "game": "Super Mario 64 Coop DX",
+        "folder": "char-select-flowery",
+        "format": ".zip",
+        "destFolder": "Super Mario 64 Coop DX/mods/",
+        "page": "https://mods.sm64coopdx.com/mods/cs-flowery.1323/",
+        "image": "https://mods.sm64coopdx.com/data/resource_icons/1/1323.jpg",
+        "url": "https://mods.sm64coopdx.com/mods/cs-flowery.1323/download"
+    },
+    {
+        "name": "[CS] Pink & Ghost",
+        "game": "Super Mario 64 Coop DX",
+        "folder": "[CS] Pink",
+        "format": ".zip",
+        "destFolder": "Super Mario 64 Coop DX/mods/",
+        "page": "https://mods.sm64coopdx.com/mods/cs-pink-ghost.1349/",
+        "image": "https://mods.sm64coopdx.com/data/resource_icons/1/1349.jpg",
+        "url": "https://mods.sm64coopdx.com/mods/cs-pink-ghost.1349/download"
+    },
+    {
+        "name": "[CS] Mr. (Ant) Tenna",
+        "game": "Super Mario 64 Coop DX",
+        "folder": "char-select-tenna",
+        "format": ".zip",
+        "destFolder": "Super Mario 64 Coop DX/mods/",
+        "page": "https://mods.sm64coopdx.com/mods/cs-tenna.901/",
+        "image": "https://mods.sm64coopdx.com/data/resource_icons/0/901.jpg",
+        "url": "https://mods.sm64coopdx.com/mods/cs-tenna.901/download"
+    },
+    {
+        "name": "Deltarune Voiceclips",
+        "game": "Super Mario 64 Coop DX",
+        "folder": "Deltarune Voiceclips v1.0",
+        "format": ".zip",
+        "destFolder": "Super Mario 64 Coop DX/mods/",
+        "page": "https://mods.sm64coopdx.com/mods/deltarune-voiceclips.1362/",
+        "image": "https://mods.sm64coopdx.com/data/resource_icons/1/1362.jpg",
+        "url": "https://mods.sm64coopdx.com/mods/deltarune-voiceclips.1362/"
+    }
+]
