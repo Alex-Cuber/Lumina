@@ -396,7 +396,8 @@
         "name": "[CS] Pink & Ghost",
         "game": "Super Mario 64 Coop DX",
         "folder": [
-            "[CS] Pink"
+            "[CS] Pink",
+            "[CS] Maddie"
         ],
         "format": ".zip",
         "destFolder": "Super Mario 64 Coop DX/mods/",
