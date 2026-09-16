@@ -140,14 +140,24 @@
         "url": "https://drive.google.com/file/d/1wk56tuCcEGzcZCxMEwy5lsA_6Fa7Lbii/view?usp=sharing"
     },
     {
-        "name": "Plants Vs. Zombies",
+        "name": "Plants vs. Zombies",
         "format": ".7z",
         "folder": "Plants Vs Zombies",
         "exe": "PlantVsZombies.exe",
         "font": "Google",
-        "info": ["Zombies are invading your home, and the only defense is your arsenal of plants! Armed with an alien nursery-worth of zombie-zapping plants like peashooters and cherry bombs, you'll need to think fast and plant faster to stop dozens of types of zombies dead in their tracks. Obstacles like a setting sun, creeping fog and a swimming pool add to the challenge, and with five game modes to dig into, the fun never dies!","1.2GHz","DirectX 8, 128MB VRAM",2,"60MB"],
+        "info": ["Zombies are invading your home, and the only defense is your arsenal of plants! Armed with an alien nursery-worth of zombie-zapping plants like peashooters and cherry bombs, you'll need to think fast and plant faster to stop dozens of types of zombies dead in their tracks. Obstacles like a setting sun, creeping fog and a swimming pool add to the challenge, and with five game modes to dig into, the fun never dies!","1.2GHz","DirectX 8, 128MB VRAM",2,"60 MB"],
         "image": "https://cdn2.steamgriddb.com/thumb/b51f03f249946fb123337b5ca7c4ade9.jpg",
         "url": "https://drive.google.com/file/d/1tk4eTK_tYvGfBpErjHjZQbXCmZdp9fEA/view?usp=sharing"
+    },
+    {
+        "name": "Plants vs. Zombies: Replanted",
+        "format": ".7z",
+        "folder": "PVZ Replanted",
+        "exe": "Replanted.exe",
+        "font": "STEAMRIP",
+        "info": ["The classic Plants vs. Zombies returns in glorious HD! DANG! After years in Crazy Dave’s attic, the original battle between Plants and Zombies is back — bigger, brighter, and crazier than ever before! Experience the game that started it all, now remastered with upscaled HD graphics and packed with new secrets to uncover.","3rd gen i3 or better","DirectX 11",4,"1.2 GB"],
+        "image": "https://cdn2.steamgriddb.com/thumb/514ad4cbd5927bda4e1d7245133c373d.jpg",
+        "url": "https://drive.google.com/file/d/1wxJHOealJ0Rq89c-lFacZFUdIPeNLLo1/view?usp=sharing"
     },
     {
         "name": "Five Nights at Freddy’s",
