@@ -74,7 +74,7 @@
         "font": "STEAMRIP",
         "info": ["Jump and fly your way through danger in this rhythm-based action platformer!","2.0+ GHz","OpenGL 2.0",1,"400 MB"],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/322170/capsule_231x87.jpg",
-        "url": "https://drive.google.com/file/d/1v4enKXCQ0Tz58f5wCAfCrW6iJrwMkvEf/view?usp=sharing"
+        "url": "https://drive.google.com/file/d/103tJSPKUGdijFhOvc8Y8Sj1cbark_CjH/view?usp=sharing"
     },
     {
         "name": "Geometry Dash + Geode",
@@ -121,6 +121,28 @@
         "url": "https://drive.google.com/file/d/1DaquFIZglky3VszuYgqnrCeDGVkS160D/view?usp=sharing"
     },
     {
+        "name": "Plants vs. Zombies",
+        "format": ".7z",
+        "folder": "Plants Vs Zombies",
+        "save": "",
+        "exe": "PlantsVsZombies.exe",
+        "font": "STEAMRIP",
+        "info": ["Zombies are invading your home, and the only defense is your arsenal of plants! Armed with an alien nursery-worth of zombie-zapping plants like peashooters and cherry bombs, you'll need to think fast and plant faster to stop dozens of types of zombies dead in their tracks.","1.2 GHz","DirectX 8",1,"50 MB"],
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/subs/1602/capsule_231x87.jpg",
+        "url": "https://drive.google.com/file/d/1tk4eTK_tYvGfBpErjHjZQbXCmZdp9fEA/view?usp=sharing"
+    },
+    {
+        "name": "Plants vs. Zombies: Replanted",
+        "format": ".7z",
+        "folder": "PVZ Replanted",
+        "save": "LocalLow/PopCap Games/PvZ Replanted",
+        "exe": "Replanted.exe",
+        "font": "STEAMRIP",
+        "info": ["The classic Plants vs. Zombies returns in glorious HD! The original battle between Plants and Zombies is back — bigger, brighter, and crazier than ever before!","3rd gen i3 or better","Intel HD Graphics",4,"2 GB"],
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3654560/e0c2fb45f1a787153aafed3b948a57395d94fe09/capsule_231x87.jpg",
+        "url": "https://drive.google.com/file/d/1wxJHOealJ0Rq89c-lFacZFUdIPeNLLo1/view?usp=sharing"
+    },
+    {
         "name": "Sonic Mania",
         "format": ".7z",
         "folder": "Sonic Mania",
@@ -129,7 +151,7 @@
         "font": "Anker Games",
         "info": ["Experience the ultimate celebration of past and future in Sonic Mania, an all-new 2D Sonic adventure running at a crisp 60FPS with stunning HD retro-style graphics.","Core 2 Duo","DirectX 9",2,"200 MB"],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/584400/capsule_231x87.jpg",
-        "url": "https://drive.google.com/file/d/1dZIRGjNjOLxwSgMk0BKoHFSSq-Wh8QQd/view?usp=sharing"
+        "url": "https://drive.google.com/file/d/1B8erk5iorGtddljUbKV3IVv5X3zWanwT/view?usp=sharing"
     },
     {
         "name": "Hollow Knight",
@@ -161,9 +183,9 @@
         "save": "LocalLow/Landfall West/Stick Fight_ The Game",
         "exe": "StickFight.exe",
         "font": "STEAMRIP",
-        "info": ["<b>Requiere tener abierto Steam y ejecutar Lumina como administrador.</b><br>Stick Fight is a physics-based couch/online fighting game where you battle it out as the iconic stick figures from the golden age of the internet.","2 GHz","DirectX 9",1,"300 MB"],
+        "info": ["<b>Requiere tener abierto Steam y ejecutar Lumina como administrador para que funcione correctamente.</b><br>Stick Fight is a physics-based couch/online fighting game where you battle it out as the iconic stick figures from the golden age of the internet.","2 GHz","DirectX 9",1,"300 MB"],
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/674940/capsule_231x87.jpg",
-        "url": "https://drive.google.com/file/d/1n0WQ6FT5t2BkH9z6s5LFT3QXiXK0MvaB/view?usp=sharing"
+        "url": "https://drive.google.com/file/d/1YS88kHOjE1ib6mmX1oXYmcG8z5cA2Shr/view?usp=sharing"
     },
     {
         "name": "Five Nights at Freddy’s",
