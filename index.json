@@ -223,7 +223,7 @@
     {
         "name": "Five Nights at Freddy’s 4",
         "format": ".zip",
-        "save": "FNAF 4",
+        "folder": "FNAF 4",
         "save": "",
         "exe": "FiveNightsatFreddys4.exe",
         "font": "STEAMRIP",
