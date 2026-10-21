@@ -218,40 +218,67 @@
         "url": "https://s1.hexrom.com/rom/n64/Donkey_Kong_64_%5Bhexrom.com%5D.zip"
     },
     {
+        "name": "Luigi's Mansion",
+        "console": "GameCube",
+        "romFormat": ".iso",
+        "emulator": "Dolphin/Dolphin.exe",
+        "format": ".7z",
+        "image": "https://cdn2.steamgriddb.com/thumb/bf56d3ff4ea20391eeb73af2dc7e0d07.png",
+        "url": "https://drive.google.com/file/d/1OTh5WWg1ECAjMawzmQAlch4M4PO7vRuj/view?usp=sharing"
+    },
+    {
         "name": "Super Mario Sunshine",
         "console": "GameCube",
-        "romFormat": ".rvz",
+        "romFormat": ".iso",
         "emulator": "Dolphin/Dolphin.exe",
-        "format": ".zip",
+        "format": ".7z",
         "image": "https://cdn2.steamgriddb.com/thumb/5e9d17e41f784ae361ada1d0817186f6.png",
-        "url": "https://s3.hexrom.com/gamecube/Super_Mario_Sunshine_%5Bhexrom.com%5D.zip"
+        "url": "https://drive.google.com/file/d/1gE6Hg4JDq1yM7oaC4UsvTYVect6Lc9XT/view?usp=sharing"
     },
     {
         "name": "Super Smash Bros. Melee",
         "console": "GameCube",
-        "romFormat": ".rvz",
+        "romFormat": ".iso",
         "emulator": "Dolphin/Dolphin.exe",
-        "format": ".zip",
+        "format": ".7z",
         "image": "https://cdn2.steamgriddb.com/thumb/f9aa778d602c7ba036e50f85deeb7250.jpg",
-        "url": "https://s3.hexrom.com/gamecube/Super_Smash_Bros%5Bhexrom.com%5D.%20Melee%20.zip"
+        "url": "https://drive.google.com/file/d/1FUTMYq5s6PiGoMlosXGL5VQSKQsReAC1/view?usp=sharing"
+    },
+    {
+        "name": "Mario Kart: Double Dash!!",
+        "console": "GameCube",
+        "romFormat": ".iso",
+        "emulator": "Dolphin/Dolphin.exe",
+        "format": ".7z",
+        "image": "https://cdn2.steamgriddb.com/thumb/ea40a57310aa704ffa9e45bfb38d913e.jpg",
+        "url": "https://drive.google.com/file/d/1-AX4PTePb4vuvj0vI3HW0g_ZlbmrMcpU/view?usp=sharing"
     },
     {
         "name": "Super Mario Galaxy",
         "console": "Wii",
-        "romFormat": ".gcz",
+        "romFormat": ".wbfs",
         "emulator": "Dolphin/Dolphin.exe",
-        "format": "",
+        "format": ".7z",
         "image": "https://cdn2.steamgriddb.com/thumb/605c7692e11cdda582e77328f02b5447.jpg",
-        "url": "https://s3.hexrom.com/rom/wii/Super%20Mario%20Galaxy%20(USA)%20(En,Fr,Es).nkit.gcz"
+        "url": "https://drive.google.com/file/d/1lD0YbbKwANxWLGzOLRFCMadyYOjx6aBW/view?usp=sharing"
     },
     {
         "name": "New Super Mario Bros Wii",
         "console": "Wii",
-        "romFormat": ".rvz",
+        "romFormat": ".wbfs",
         "emulator": "Dolphin/Dolphin.exe",
-        "format": ".zip",
+        "format": ".7z",
         "image": "https://cdn2.steamgriddb.com/thumb/05d8cccb5f47e5072f0a05b5f514941a.jpg",
-        "url": "https://s3.hexrom.com/wii/New_Super_Mario_Bros%5Bhexrom.com%5D.%20Wii%20.zip"
+        "url": "https://drive.google.com/file/d/1ZeiwIDzAk0rCExa7r7L5rGDTxnHo9ujZ/view?usp=sharing"
+    },
+    {
+        "name": "Mario Kart Wii",
+        "console": "Wii",
+        "romFormat": ".wbfs",
+        "emulator": "Dolphin/Dolphin.exe",
+        "format": ".7z",
+        "image": "https://cdn2.steamgriddb.com/thumb/dc2b690516158a874dd8aabe1365c6a0.jpg",
+        "url": "https://drive.google.com/file/d/1CUgOkcNg_z-IElBfseq_Hfgl_IDSaK-_/view?usp=sharing"
     },
     {
         "name": "Super Mario Advance 4",
