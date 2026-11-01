@@ -1,5 +1,16 @@
 [
     {
+        "name": "Tienes una version desactualizada de Lumina",
+        "format": "",
+        "folder": "",
+        "save": "",
+        "exe": "",
+        "font": "Lumina | INFO: Esta version es desactualizada, por favor descarga la version 2.0.0 o superior de Lumina con el mensaje que aparece al iniciar el programa.",
+        "info": ["Esta version no recibira mas soporte ni nuevos juegos, tampoco aprovecharas todas las nuevas funciones del programa. puede que sigas pudiendo descargar algunos juegos, pero la mayoria de estos podrian estar desactualizados o directamente no poder descargarse.<br><b>Este aviso aparece asi por las limitaciones del programa.</b>","N/A","N/A",0,"N/A"],
+        "image": "",
+        "url": ""
+    },
+    {
         "name": "UNDERTALE",
         "format": ".zip",
         "folder": "UNDERTALE",
